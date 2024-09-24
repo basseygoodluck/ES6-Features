@@ -1,4 +1,6 @@
-# ES6-Features
+JOHN GOODLUCK BASSEY 23/1343
+
+ES6-Features
 
 This README provides a summary of key JavaScript concepts, including classes, array functions, variable declarations, array methods, and destructuring.
 Classes
