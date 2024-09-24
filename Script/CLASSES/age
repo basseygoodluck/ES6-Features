@@ -1,0 +1,19 @@
+class Person {
+    constructor(personName, birthYear) {
+      this.personName = personName;
+      this.birthYear = birthYear;
+    }
+  
+    calculateAge() {
+      const currentYear = new Date().getFullYear();
+      return currentYear - this.birthYear;
+    }
+  
+    introduce() {
+      return `Hello, I'm ${this.personName} and I'm ${this.calculateAge()} years old.`;
+    }
+  }
+  
+  const person = new Person('Alice', 1995);
+  console.log(person.introduce()); // Output: Hello, I'm Alice and I'm X years old (based on current year)
+  

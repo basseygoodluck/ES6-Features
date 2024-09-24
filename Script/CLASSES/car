@@ -1,0 +1,13 @@
+class Car {
+  constructor(make, model) {
+    this.make = make;
+    this.model = model;
+  }
+
+  getDetails() {
+    return `Car: ${this.make} ${this.model}`;
+  }
+}
+
+const myCar = new Car('Toyota', 'Corolla');
+console.log(myCar.getDetails()); // Output: Car: Toyota Corolla
